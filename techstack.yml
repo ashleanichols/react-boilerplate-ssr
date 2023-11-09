@@ -1,0 +1,366 @@
+repo_name: ashleanichols/react-boilerplate-ssr
+report_id: 7f362db0033e18a998dc918c48524356
+repo_type: Public
+timestamp: '2023-11-09T16:53:52+00:00'
+requested_by: gretzky
+provider: github
+branch: master
+detected_tools_count: 25
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 3.7.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: reselect
+  description: Selector library for Redux
+  website_url: https://github.com/reactjs/reselect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/7757/13142323.png
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: Immutable.js
+  description: Immutable persistent data collections for Javascript which increase
+    efficiency and simplicity, by Facebook
+  website_url: http://facebook.github.io/immutable-js/
+  version: 3.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.10
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: hoist-non-react-statics
+  description: Copies non-react specific statics from a child component to a parent
+    component
+  package_url: https://www.npmjs.com/hoist-non-react-statics
+  version: 2.5.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16478/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: immutable
+  description: Immutable Data Collections
+  package_url: https://www.npmjs.com/immutable
+  version: 3.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16070/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: intl
+  description: Polyfill the ECMA-402 Intl API
+  package_url: https://www.npmjs.com/intl
+  version: 1.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16877/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: invariant
+  description: Invariant
+  package_url: https://www.npmjs.com/invariant
+  version: 2.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16272/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: react-helmet
+  description: A document head manager for React
+  package_url: https://www.npmjs.com/react-helmet
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: react-intl
+  description: Internationalize React apps
+  package_url: https://www.npmjs.com/react-intl
+  version: 2.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16566/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 5.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: redux-immutable
+  description: Redux-immutable is used to create an equivalent function of Redux combineReducers
+    that works with Immutable.js state
+  package_url: https://www.npmjs.com/redux-immutable
+  version: 4.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18241/default_42444f560291e764861faaf607f48484f4d14cba.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: redux-saga
+  description: Saga middleware for Redux to handle Side Effects
+  package_url: https://www.npmjs.com/redux-saga
+  version: 0.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16472/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+- name: serialize-javascript
+  description: Serialize JavaScript to a superset of JSON that includes regular expressions
+    and functions
+  package_url: https://www.npmjs.com/serialize-javascript
+  version: 1.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17203/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
+  vulnerabilities:
+  - name: Insecure serialization leading to RCE in serialize-javascript
+    cve_id: CVE-2020-7660
+    cve_url: https://github.com/advisories/GHSA-hxcc-f52p-wc94
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.1.0
+  - name: Cross-Site Scripting in serialize-javascript
+    cve_id: CVE-2019-16769
+    cve_url: https://github.com/advisories/GHSA-h9rv-jmmf-4pgx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.1.1
+- name: whatwg-fetch
+  description: A window.fetch polyfill
+  package_url: https://www.npmjs.com/whatwg-fetch
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: gretzky
+  last_updated_on: 2018-08-05 22:36:19.000000000 Z
